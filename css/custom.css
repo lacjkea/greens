@@ -1,0 +1,206 @@
+/************splash billede ***********/
+.shopnow {
+  background-color: #795275;
+  color: #fff !important;
+  font-family: "effra";
+}
+
+.mjaw-hero {
+  background-image: url(../img/IMG_3033-2.jpg);
+  background-color: #8f6e8b;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: 100% 50%;
+  height: calc(100vh - 56px);
+}
+
+.logo1 {
+  font-family: "Gravesend Sans Medium";
+}
+.logo2 {
+  font-family: "Shadows Into Light";
+}
+/************splash billede slut ***********/
+/************intro tekst ***********/
+.card-title {
+  color: #f2b4ae;
+}
+
+.card {
+  border: none;
+}
+
+.learnmore {
+  border: 3px solid #f2b4ae;
+  background-color: white;
+  color: black;
+  padding: 0.2rem 2rem;
+}
+.learnmore:hover {
+  border: 3px solid #f2b4ae;
+  background-color: #f2e0df;
+  color: black;
+  transform: scale(1.1);
+}
+
+/************intro tekst slut***********/
+/************Produkter***********/
+
+[data-hue] {
+  height: 100vh;
+  background: hsl(var(--hue, 0) 60% 90%);
+  transition: background 0.3s;
+}
+
+@media (max-width: 776px) {
+  [data-hue] {
+    height: auto;
+    background: hsl(var(--hue, 0) 60% 90%);
+    transition: background 0.3s;
+  }
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.produkter {
+  /* background-color: #ffffd4; */
+  font-family: "effra";
+  text-align: center;
+}
+.kveade {
+  /* background-color: #ffffd4; */
+  font-family: "effra";
+}
+
+.rodbede {
+  /* background-color: #ffe9ec; */
+  font-family: "effra";
+}
+
+.selleri {
+  /* background-color: #e6ebb3; */
+  font-family: "effra";
+}
+
+.havtorn {
+  /* background-color: #ffe4b2; */
+  font-family: "effra";
+}
+
+.img-fluid {
+  width: 550px;
+}
+
+/************Produkter slut ***********/
+/*********køb knapper************/
+.købknap1 {
+  border: 3px solid #b7914b;
+  background-color: #ffffd4;
+  color: black;
+  padding: 0.2rem 2rem;
+}
+.købknap1:hover {
+  border: 3px solid #b7914b;
+  background-color: #d8b678;
+  color: black;
+  transform: scale(1.1);
+}
+
+.købknap2 {
+  border: 3px solid #734d57;
+  background-color: #ffe9ec;
+  color: black;
+  padding: 0.2rem 2rem;
+}
+.købknap2:hover {
+  border: 3px solid #734d57;
+  background-color: #d9a3b1;
+  color: black;
+  transform: scale(1.1);
+}
+
+.købknap3 {
+  border: 3px solid #a0a676;
+  background-color: #e6ebb3;
+  color: black;
+  padding: 0.2rem 2rem;
+}
+.købknap3:hover {
+  border: 3px solid #a0a676;
+  background-color: #b5c188;
+  color: black;
+  transform: scale(1.1);
+}
+
+.købknap4 {
+  border: 3px solid #bb754c;
+  background-color: #ffe4b2;
+  color: black;
+  padding: 0.2rem 2rem;
+}
+.købknap4:hover {
+  border: 3px solid #bb754c;
+  background-color: #d99e6a;
+  color: black;
+  transform: scale(1.1);
+}
+
+/************køb knapper slut ***********/
+/********** citat  **********/
+h3 {
+  font-size: 50px;
+}
+.citat {
+  font-family: "Houschka Pro";
+}
+/********** citat slut **********/
+
+/********** video og tekst **********/
+.overskrift3 {
+  color: #d99e6a;
+}
+.tekst3 {
+  font-family: "effra";
+}
+
+@media (min-width: 676px) {
+  .img-thumbnail {
+    height: 40vh;
+  }
+}
+/********** billede og tekst slut**********/
+
+.footer1 {
+  background-color: #f2e6d8;
+  font-family: "effra";
+}
+
+@media (min-width: 576px) {
+  .mjaw-hero {
+    height: 60vh;
+    min-height: 730px;
+  }
+}
+
+.pulse {
+  animation-name: pulse_kf;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse_kf {
+  0% {
+    transform: scale(0.9);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
