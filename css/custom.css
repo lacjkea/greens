@@ -47,7 +47,7 @@
 /************Produkter***********/
 
 [data-hue] {
-  height: 100vh;
+  /* height: 100vh;  lacj */
   background: hsl(var(--hue, 0) 60% 90%);
   transition: background 0.3s;
 }
